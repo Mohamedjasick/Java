@@ -1,0 +1,22 @@
+package day1;
+  
+public class OperatorsDemo {
+	
+    public static void main(String[] args) {
+         
+    	int num = 21 ; 
+    	boolean isPrime = true ; 
+    	
+    	for (int i = 2 ; i < num ; i++) {
+    		if (num % i == 0) {
+    			isPrime = false ; 
+    			break ; 
+    		}
+    	}
+    	if (isPrime) {
+    		System.out.println ("It is a Prime Number") ;
+    	}else {
+    		System.out.println ("It is Not a Prime Number");
+    	}
+    } 
+}
