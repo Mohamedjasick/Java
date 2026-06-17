@@ -1,0 +1,25 @@
+package day1;
+  
+public class OperatorsDemo {
+	
+    public static void main(String[] args) {
+         
+    	int num = 121 ; 
+    	int org = num ;
+    	int pal = 0 ; 
+    	
+    	while (num>0) {
+    		int digit = num % 10 ;
+    		pal = pal * 10 + digit ; 
+    		num = num / 10 ;
+    	}
+    	
+    	System.out.println (pal) ; 
+    	
+    	if (pal == org) {
+    		System.out.println ("It is a Palindrome");
+    	}else {
+    		System.out.println ("It is Not a Palindrome");
+    	}
+    } 
+}
