@@ -1,0 +1,13 @@
+package day1;
+
+public class OperatorsDemo {
+
+    public static void main(String[] args) {
+
+    	String str = "I Love Java" ;
+    	String words[] = str.split(" ");
+    	
+    	
+    	System.out.println("Words = " + words.length);
+    }
+}
